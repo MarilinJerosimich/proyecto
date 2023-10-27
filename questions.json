@@ -1,0 +1,16 @@
+{
+    "questions": [
+        {
+            "preguntas": "¿Reciclar ayuda a disminuir la contaminación del aire y el agua?",
+            "answer": "Si"
+        },
+        {
+            "preguntas": "¿Afecta la salud el medio ambiente?",
+            "answer": "Si"
+        },
+        {
+            "preguntas": "¿Que son los RAEEs?",
+            "answer": "son los residuos de los aparatos eléctricos y electrónicos."
+        }
+    ]
+}

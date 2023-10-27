@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+    </style>
+    <title>Pensemos Verde🌍</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./imagenes/icono.ico" type="ico" sizes="32x32" />
+    
+  </head>
+
+  <body>
+    <script src="script.js"></script>
+    
+    <header>
+      <a name="arriba"></a>
+      <h1>Pensemos Verde</h1>
+      <h2 class="subtitulo">
+        Esta es una pequeña guia en la cual encontraremos informacion, será util
+        para que sepamos <br />
+        como podemos aportar nuestro granito de arena para que cuidemos del
+        medio ambiente<br />Recordemos que los pequeños actos cuentan!!
+      </h2>
+      
+    </header>
+
+    <main>
+      <nav class="barraSuperior">
+        <button onclick="ingresoDeDatos()">
+        <a>Iniciar Sesión</a></button>
+      </nav>
+      <div class="contenedor">
+        <div class="seccion">
+          <img
+            class="contenido"
+            src="./imagenes/reciclaje.png"
+            alt="Imagen de Reciclaje"
+          />
+          <h3>Reciclaje</h3>
+          <button>
+            <a href="./html/reciclablesYNoreciclables.html">Ver Más...</a>
+          </button>
+        </div>
+
+        <div class="seccion">
+          <img
+            class="contenido"
+            src="./imagenes/saludyambiente.jpg"
+            alt="Manos con Planeta"
+          />
+          <h3>Salud y Medio Ambiente</h3>
+          <button>
+            <a href="./html/saludymedioambiente.html">Ver Más...</a>
+          </button>
+        </div>
+      </div>
+
+      <div class="contenedor">
+        <div class="seccion">
+          <img
+            class="contenido"
+            src="imagenes/aee.jpg"
+            alt="Residuos de Computadora"
+          />
+          <h3>Aparatos Electricos y Electronicos</h3>
+          <button>
+            <a href="./html/raee.html">Ver Más...</a>
+          </button>
+        </div>
+
+        <div class="seccion">
+          <img
+            class="contenido"
+            src="imagenes/juegos.jpg"
+            ="Imagen de Juegos"
+          />
+          <h3>Juegos</h3>
+          <button>
+            <a href="./juegos.html">Ver Más...</a>
+          </button>
+        </div>
+      </div>
+
+      <!-- <div class="contenedor2">
+        <div class="seccion2">
+          <img
+            class="contenido"
+            src="imagenes/energias.jpg"
+            alt="Imagen de ONG"
+          />
+          <h3>Energias Renovables</h3>
+          <button>
+            <a href=".html">Ver Más...</a>
+          </button>
+        </div>
+      </div> -->
+    </main>
+    <footer>
+      
+      <fieldset>
+        <legend>Formulario de contacto</legend>
+        <label for="">
+          Comentarios y/o sugerencias
+          <input type="text" name="" id="comentarios" />
+        </label>
+        <button onclick="comentarios()">
+          <a id="enviar">Enviar</a>
+        </button>
+        
+      </fieldset>
+
+      <nav class="nav-reciclable">
+        <fieldset class="contenedor3">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99304.0624735965!2d-68.1978024874772!3d-38.94107210914358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a33ba35eb8e35%3A0x6220acb810e3e2f5!2zTmV1cXXDqW4!5e0!3m2!1ses!2sar!4v1694730456810!5m2!1ses!2sar"
+            width="300"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            id="maps"
+          ></iframe>
+          <div id="nav-descr">
+            <h5>
+              Ubicación: Neuquén, Argentina <br />
+              Email: sugerencias@pensemosverde.com <br />
+              Podes suscribirte a nuestro newsletter ingresando tu email en el
+              siguiente apartado:
+            </h5>
+            <div id="email">
+            <fieldset id="email-input">
+            <label for="">
+              Ingresa tu email
+              <input type="email" name="" id="email">
+            </label>
+            <button onclick="ingresoEmail()">
+              <a id="enviar">Enviar</a>
+              
+            </button>
+          </fieldset>
+          </div>
+          </div>
+        </div>
+        
+        </fieldset>
+        <div>
+          <button>
+            <a href="#arriba">Ir arriba</a>
+          </button>
+          </div>
+      </nav>
+    </footer>
+  </body>
+</html>
